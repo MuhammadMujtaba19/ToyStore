@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="260dp"
+    android:background="@android:color/white"
+    android:orientation="vertical" xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:background="@color/light_green_400" android:orientation="vertical" android:minHeight="120dp" android:padding="@dimen/spacing_mlarge" android:gravity="center">
+
+    <ImageView android:layout_height="80dp" android:layout_width="80dp" app:srcCompat="@drawable/ic_verified_user" android:tint="@android:color/white" android:id="@+id/icon"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/title" android:text="Order Received!" android:layout_marginTop="@dimen/spacing_middle" android:textColor="@android:color/white" android:textStyle="bold" android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+</LinearLayout>
+
+
+   <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:padding="@dimen/spacing_mlarge" android:gravity="left|center_vertical|center_horizontal|center|start">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+        android:id="@+id/content" android:text="Thanks for Shopping with us,\hope to see you again."
+        android:layout_marginTop="@dimen/spacing_small"  android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:gravity="center" android:id="@+id/lyt_action" android:layout_marginBottom="@dimen/spacing_large">
+
+    <android.support.v7.widget.AppCompatButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/btn_rounded_green" android:id="@+id/bt_close" android:text="Continue" android:textColor="@android:color/white" style="@style/Widget.AppCompat.Button.Borderless" android:paddingRight="@dimen/spacing_mlarge" android:paddingLeft="@dimen/spacing_mlarge"/>
+
+</LinearLayout>
+
+</LinearLayout>

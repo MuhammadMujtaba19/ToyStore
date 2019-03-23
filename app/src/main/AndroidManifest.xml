@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mujtaba.odeez2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/abc_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/abc_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".ProductDetails" />
+        <activity android:name=".CartActivity" />
+        <activity
+            android:name=".tabbed"
+            android:label="@string/title_activity_tabbed" />
+
+        <activity
+            android:name=".Product_Activity"
+            android:label="@string/title_activity_product_"
+
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".ActivityCheckout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignUp"
+            android:theme="@style/AppTheme.NoActionBar">
+
+
+        </activity>
+        <activity android:name=".SignIn"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".MyFirebaseInstanceService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <!--<meta-data-->
+            <!--tools:replace="android:value"-->
+            <!--android:name="android.support.VERSION"-->
+            <!--android:value="25.3.1" />-->
+
+    </application>
+
+</manifest>

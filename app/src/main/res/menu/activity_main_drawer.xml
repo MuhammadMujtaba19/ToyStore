@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Shop By Category ">
+        <menu android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/toy1"
+                android:title="Collectibles" />
+            <item
+                android:id="@+id/toy2"
+                android:title="Action Figures/ Characters" />
+            <item
+                android:id="@+id/toy3"
+                android:title="Arts and Craft" />
+            <item
+                android:id="@+id/toy4"
+                android:title="Baby Toddler" />
+            <item
+                android:id="@+id/toy5"
+                android:title="Board Games" />
+            <item
+                android:id="@+id/toy6"
+                android:title="Building Blocks" />
+            <item
+                android:id="@+id/toy7"
+                android:title="Building Kits" />
+            <item
+                android:id="@+id/toy8"
+                android:title="Car / Train / Plane" />
+            <item
+                android:id="@+id/toy9"
+                android:title="Dolls and Doll house" />
+            <item
+                android:id="@+id/toy10"
+                android:title="Drone" />
+            <item
+                android:id="@+id/toy11"
+                android:title="Educational Toys"/>
+            <item
+                android:id="@+id/toy12"
+                android:title="Garden and Planet" />
+            <item
+                android:id="@+id/toy13"
+                android:title="Movie DVDs" />
+            <item
+                android:id="@+id/toy14"
+                android:title="Toy Weapon" />
+
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

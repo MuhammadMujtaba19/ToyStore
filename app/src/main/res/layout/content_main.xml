@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mujtaba.odeez2.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:layout_marginTop="0dp">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintVertical_bias="0.0"
+        android:paddingTop="0dp"
+        android:layout_marginTop="0dp"
+        android:clipToPadding="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:descendantFocusability="blocksDescendants"
+            android:focusableInTouchMode="true"
+            android:paddingTop="0dp"
+            android:layout_marginTop="0dp"
+            android:clipToPadding="true">
+
+
+            <android.support.v4.view.ViewPager
+
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:paddingTop="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </android.support.v4.view.ViewPager>
+
+            <com.apg.mobile.roundtextview.RoundTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Search by Catogeries"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                app:allCorner="16dp"
+                app:bgColor="#fbc531"/>
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/fabrecyclerveiw">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <com.apg.mobile.roundtextview.RoundTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Hot selling Products"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                app:allCorner="16dp"
+                app:bgColor="#ffa502"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/hotselling"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginStart="5dp"
+                />
+
+
+            <com.apg.mobile.roundtextview.RoundTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Search by Brand"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                app:allCorner="16dp"
+                app:bgColor="#9b59b6"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/brands"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginStart="5dp"
+                />
+
+
+
+            <com.apg.mobile.roundtextview.RoundTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   New Arrival"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                app:allCorner="16dp"
+                app:bgColor="#44bd32"/>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/newarrival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                />
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>
+

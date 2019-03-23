@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "301416143131",
+    "firebase_url": "https://ecommerce-admin-panel.firebaseio.com",
+    "project_id": "ecommerce-admin-panel",
+    "storage_bucket": "ecommerce-admin-panel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301416143131:android:b10965054a776725",
+        "android_client_info": {
+          "package_name": "com.example.mujtaba.odeez2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301416143131-5j2jgbefmemnddjuoamdrovrio9gfgma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUJi43nt4NEjsWsyvzOHBnwgmIPpmnPFQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

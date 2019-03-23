@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<android.support.design.widget.CoordinatorLayout
+android:layout_height="match_parent"
+android:layout_width="match_parent"
+android:background="@android:color/white"
+android:id="@+id/parent_view"
+xmlns:aapt="http://schemas.android.com/aapt"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+ <android.support.design.widget.AppBarLayout
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     android:background="@android:color/white"
+     app:elevation="0dp">
+
+     <android.support.v7.widget.Toolbar
+         android:layout_height="?attr/actionBarSize"
+         android:layout_width="match_parent"
+         android:background="@android:color/white"
+         android:id="@+id/toolbarcheckout"
+         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+         app:contentInsetStartWithNavigation="0dp">
+
+
+    <LinearLayout
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_marginRight="@dimen/spacing_large"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Checkout" android:textColor="@color/grey_80"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+</LinearLayout>
+
+</android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/spacing_middle"
+        android:paddingRight="@dimen/spacing_xxlarge"
+        android:paddingLeft="@dimen/spacing_xxlarge">
+
+        <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="8dp">
+
+    <View android:layout_height="3dp"
+        android:layout_width="0dp"
+        android:background="#e6e6e6"
+        android:id="@+id/line_first" android:layout_weight="1"
+        android:layout_marginLeft="@dimen/spacing_mxlarge"/>
+
+    <View android:layout_height="3dp"
+        android:layout_width="0dp"
+        android:background="#e6e6e6"
+        android:id="@+id/line_second"
+        android:layout_marginRight="@dimen/spacing_mxlarge"
+        android:layout_weight="1"/>
+
+</LinearLayout>
+
+
+            <RelativeLayout
+          android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true">
+
+    <ImageView android:layout_height="@dimen/spacing_smlarge"
+        android:layout_width="@dimen/spacing_smlarge"
+        android:background="@android:color/white"
+        android:id="@+id/image_shipping"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/shape_round_outline"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_shipping"
+        android:text="Order" android:textColor="#263238"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:layout_marginTop="@dimen/spacing_mxlarge"/>
+
+</RelativeLayout>
+            <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true">
+
+    <ImageView
+        android:layout_height="@dimen/spacing_smlarge"
+        android:layout_width="@dimen/spacing_smlarge"
+        android:background="@android:color/white"
+        android:id="@+id/image_payment" android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/shape_round_outline"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" android:id="@+id/tv_payment"
+        android:text="Address" android:textColor="#cccccc"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:layout_marginTop="@dimen/spacing_mxlarge"/>
+
+</RelativeLayout>
+            <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true">
+
+    <ImageView
+        android:layout_height="@dimen/spacing_smlarge"
+        android:layout_width="@dimen/spacing_smlarge"
+        android:background="@android:color/white"
+        android:id="@+id/image_confirm"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/shape_round_outline"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_confirm" android:text="Confirmation"
+        android:textColor="#cccccc"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:layout_marginTop="@dimen/spacing_mxlarge"/>
+
+</RelativeLayout>
+
+</RelativeLayout>
+
+</LinearLayout>
+
+</android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <!--<android.support.v4.view.ViewPager-->
+            <!--android:id="@+id/container2"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--app:layout_behavior="@string/appbar_scrolling_view_behavior" />-->
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:id="@+id/place_holder"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_height="@dimen/spacing_xxlarge"
+        android:layout_width="@dimen/spacing_xxlarge"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/lyt_previous" style="@style/RippleStyleWhite">
+
+    <ImageView
+        android:layout_height="@dimen/spacing_smlarge"
+        android:layout_width="@dimen/spacing_smlarge"
+        android:src="@drawable/ic_arrow_back"
+        android:tint="@android:color/white"
+        android:layout_gravity="center"/>
+
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_height="@dimen/spacing_xxlarge"
+        android:layout_width="0dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/lyt_next"
+        android:layout_weight="1"
+        style="@style/RippleStyleWhite">
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Next"
+        android:textColor="@android:color/white"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"/>
+
+    <ImageView
+        android:layout_height="@dimen/spacing_smlarge"
+        android:layout_width="@dimen/spacing_smlarge"
+        android:layout_marginLeft="@dimen/spacing_medium"
+        android:src="@drawable/ic_arrow_back"
+        android:tint="@android:color/white"
+        android:rotation="180"/>
+
+</LinearLayout>
+
+</com.balysv.materialripple.MaterialRippleLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

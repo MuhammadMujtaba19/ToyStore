@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="2dp"-->
+        <!--android:alpha="0.6"-->
+        <!--android:background="@drawable/line"-->
+        <!--/>-->
+    <!--<TableLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:stretchColumns="*"-->
+        <!--android:shrinkColumns="*"-->
+        <!--android:background="#e9f4ec">-->
+
+    <!--<TableRow-->
+        <!--android:id="@+id/days"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:layout_marginLeft="3dp">-->
+        <!--<TextView-->
+<!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:text="S"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="#3b586f"/>-->
+        <!--<TextView-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:text="M"-->
+            <!--android:textColor="#3b586f "/>-->
+
+        <!--<TextView-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:text="T"-->
+            <!--android:textColor="#3b586f "/>-->
+
+
+        <!--<TextView-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:text="W"-->
+            <!--android:textColor="#3b586f "/>-->
+
+        <!--<TextView-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:text="T"-->
+            <!--android:textColor="#3b586f "/>-->
+
+        <!--<TextView-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:text="F"-->
+            <!--android:textColor="#3b586f "/>-->
+
+    <!--</TableRow>-->
+        <!--<TableRow-->
+            <!--android:id="@+id/dates"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_marginLeft="3dp">-->
+            <!--<TextView-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:text="10"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textColor="#3b586f "/>-->
+
+            <!--<TextView-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:text="11"-->
+                <!--android:textColor="#3b586f "/>-->
+
+            <!--<TextView-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:text="12"-->
+                <!--android:textColor="#3b586f "/>-->
+
+
+            <!--<TextView-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:text="13"-->
+                <!--android:textColor="#3b586f "/>-->
+
+            <!--<TextView-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:text="14"-->
+                <!--android:textColor="#3b586f "/>-->
+
+            <!--<TextView-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:text="15"-->
+                <!--android:textColor="#3b586f "/>-->
+           <!--</TableRow>-->
+        <!--<TableRow-->
+            <!--android:id="@+id/currentdate"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_marginLeft="3dp">-->
+        <!--<TextView-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:text="Monday, 11th march 2019"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="#3b586f "-->
+            <!--android:textAlignment="center"/>-->
+<!--</TableRow>-->
+    <!--</TableLayout>-->
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="2dp"-->
+        <!--android:background="@drawable/line"-->
+        <!--android:layout_marginBottom="4dp"-->
+        <!--android:alpha="0.6"-->
+        <!--/>-->
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+        <!--<LinearLayout-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="vertical">-->
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:cardBackgroundColor="#b32c26"-->
+                <!--app:cardCornerRadius="8dp">-->
+                    <!--<RelativeLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content">-->
+
+                    <!--<android.support.v7.widget.CardView-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginRight="25dp"-->
+                        <!--android:layout_marginLeft="5dp"-->
+                        <!--android:layout_marginTop="5dp"-->
+                        <!--android:layout_marginBottom="5dp"-->
+                        <!--app:cardCornerRadius="8dp"-->
+                        <!--android:id="@+id/cardView">-->
+
+                        <!--<LinearLayout-->
+                            <!--android:layout_margin="10dp"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:orientation="vertical">-->
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="Information Retrieval"-->
+                                <!--android:textStyle="bold"-->
+                                <!--android:textSize="20sp"/>-->
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="Dr Muhammad Rafi"-->
+                                <!--android:textSize="15sp"/>-->
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="09.00 Am - 09.55 Am"-->
+                                <!--android:textSize="15sp"/>-->
+
+                        <!--</LinearLayout>-->
+
+                    <!--</android.support.v7.widget.CardView>-->
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Absent"-->
+                        <!--android:rotation="-90"-->
+                        <!--android:textStyle="bold"-->
+                        <!--android:textColor="#fff"-->
+                        <!--android:textSize="12sp"-->
+                        <!--android:layout_alignTop="@+id/cardView"-->
+                        <!--android:layout_marginTop="20dp"-->
+                        <!--android:layout_alignParentRight="true"-->
+                        <!--/>-->
+                        <!--&lt;!&ndash;android:layout_alignParentEnd="true"&ndash;&gt;-->
+
+                    <!--</RelativeLayout>-->
+
+            <!--</android.support.v7.widget.CardView>-->
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:cardBackgroundColor="#4fa14f"-->
+                <!--app:cardCornerRadius="8dp">-->
+                <!--<RelativeLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content">-->
+
+                <!--<android.support.v7.widget.CardView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginRight="25dp"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_marginTop="5dp"-->
+                    <!--android:layout_marginBottom="5dp"-->
+                    <!--app:cardCornerRadius="8dp">-->
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_margin="10dp"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:orientation="vertical">-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="Computer Networks"-->
+                            <!--android:textStyle="bold"-->
+                            <!--android:textSize="20sp"/>-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="Dr Jawwad Shamsi"-->
+                            <!--android:textSize="15sp"/>-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="10.00 Am - 10.55 Am"-->
+                            <!--android:textSize="15sp"/>-->
+
+                    <!--</LinearLayout>-->
+
+                <!--</android.support.v7.widget.CardView>-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Present"-->
+                    <!--android:rotation="-90"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:textColor="#fff"-->
+                    <!--android:textSize="12sp"-->
+                    <!--android:layout_marginTop="20dp"-->
+                    <!--android:layout_alignParentRight="true"-->
+                    <!--/>-->
+                <!--</RelativeLayout>-->
+            <!--</android.support.v7.widget.CardView>-->
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:cardBackgroundColor="#4fa14f"-->
+                <!--app:cardCornerRadius="8dp">-->
+
+
+                <!--<RelativeLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content">-->
+                <!--<android.support.v7.widget.CardView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginRight="25dp"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_marginTop="5dp"-->
+                    <!--android:layout_marginBottom="5dp"-->
+                    <!--app:cardCornerRadius="8dp">-->
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_margin="10dp"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:orientation="vertical">-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="Technical Business Writing "-->
+                            <!--android:textStyle="bold"-->
+                            <!--android:textSize="20sp"/>-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="Miss Samera Sultan"-->
+                            <!--android:textSize="15sp"/>-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="11.00 Am - 11.55 Am"-->
+                            <!--android:textSize="15sp"/>-->
+
+                    <!--</LinearLayout>-->
+
+                <!--</android.support.v7.widget.CardView>-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Present"-->
+                    <!--android:rotation="-90"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:textColor="#fff"-->
+                    <!--android:textSize="12sp"-->
+                    <!--android:layout_marginTop="20dp"-->
+                    <!--android:layout_alignParentRight="true"-->
+                    <!--/>-->
+                <!--</RelativeLayout>-->
+            <!--</android.support.v7.widget.CardView>-->
+
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:layout_marginTop="20dp"-->
+
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:cardBackgroundColor="#5e4c52"-->
+                <!--app:cardCornerRadius="8dp">-->
+                <!--<RelativeLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content">-->
+                <!--<android.support.v7.widget.CardView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginRight="25dp"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_marginTop="5dp"-->
+                    <!--android:layout_marginBottom="5dp"-->
+                    <!--app:cardCornerRadius="8dp">-->
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_margin="10dp"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:orientation="vertical">-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="Software Engineering"-->
+                            <!--android:textStyle="bold"-->
+                            <!--android:textSize="20sp"/>-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="Dr Nouman Ghazi"-->
+                            <!--android:textSize="15sp"/>-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="12.00 Am - 12.55 Am"-->
+                            <!--android:textSize="15sp"/>-->
+
+                    <!--</LinearLayout>-->
+
+                <!--</android.support.v7.widget.CardView>-->
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="  Late"-->
+                        <!--android:rotation="-90"-->
+                        <!--android:textStyle="bold"-->
+                        <!--android:textColor="#fff"-->
+                        <!--android:textSize="12sp"-->
+                        <!--android:layout_marginTop="20dp"-->
+                        <!--android:layout_alignParentRight="true"-->
+                        <!--/>-->
+                <!--</RelativeLayout>-->
+
+            <!--</android.support.v7.widget.CardView>-->
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:layout_marginTop="20dp"-->
+
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:cardBackgroundColor="#225489"-->
+                <!--app:cardCornerRadius="8dp">-->
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+                <!--<android.support.v7.widget.CardView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginRight="25dp"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_marginTop="5dp"-->
+                    <!--android:layout_marginBottom="5dp"-->
+                    <!--app:cardCornerRadius="8dp">-->
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_margin="10dp"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:orientation="vertical">-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="Artificial Inteligence "-->
+                            <!--android:textStyle="bold"-->
+                            <!--android:textSize="20sp"/>-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="Miss Saeeda Kanwal"-->
+                            <!--android:textSize="15sp"/>-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="2.00 Am - 2.55 Am"-->
+                            <!--android:textSize="15sp"/>-->
+
+                    <!--</LinearLayout>-->
+
+                <!--</android.support.v7.widget.CardView>-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Schduled"-->
+                    <!--android:rotation="-90"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:textColor="#fff"-->
+                    <!--android:textSize="12sp"-->
+                    <!--android:layout_marginTop="20dp"-->
+                    <!--android:layout_alignParentRight="true"-->
+                    <!--/>-->
+            <!--</RelativeLayout>-->
+            <!--</android.support.v7.widget.CardView>-->
+
+
+        <!--</LinearLayout>-->
+    <!--</ScrollView>-->
+
+</LinearLayout>
