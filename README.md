@@ -1,9 +1,9 @@
 # Ecommerce Toy Store
 A Ecommorce Toy Store made on Native Adroid using Java, Firebase, SQLite, Volley,Material Designs
 
-# Designed and Developed by 
-Muhammad Mujtaba Bawani 
-Muhammad Raza 
+## Designed and Developed by 
+#### Muhammad Mujtaba Bawani 
+#### Muhammad Raza 
 
 
 
